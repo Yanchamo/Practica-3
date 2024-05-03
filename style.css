@@ -1,0 +1,42 @@
+
+header > nav > a {
+    font-size: 50px;
+    color: aquamarine;
+}
+h2, .texto-centrados {
+    text-align: center;
+}
+aside a{
+    font-size: 40px;
+    color: blueviolet;
+}
+/* Compartir estilos, propiedades en CSS */
+
+
+   .caja {
+    font: size 40px;px;
+    color: rgb(11, 11, 238);
+    outline: 1px solid cornflowerblue;
+    border: 5px solid orange;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 50px;
+}
+
+/* Ejercicio selectores */
+
+h1 { 
+color: red;
+}
+.texto-grande{
+font-size: 60px;
+color: blue;
+}
+#Texto-pequeno {
+font-size: 10px;
+color: black;
+}
+.alineacion {
+    text-align: justify;
+}
