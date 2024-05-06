@@ -1,4 +1,8 @@
-
+body {.sedan-sc-regular 
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */}
 header > nav > a {
     font-size: 50px;
     color: aquamarine;
@@ -14,7 +18,7 @@ aside a{
 
 
    .caja {
-    font: size 40px;px;
+    font: size 40px;
     color: rgb(11, 11, 238);
     outline: 1px solid cornflowerblue;
     border: 5px solid orange;
@@ -40,3 +44,65 @@ color: black;
 .alineacion {
     text-align: justify;
 }
+.quitar-subrayado {
+    text-decoration: none;
+}
+/* Espaciado de textos
+ */
+
+ .espaciado-de-textos {
+    line-height: 40px;
+    color: brown;
+    /* Espaciado entre letras */
+    letter-spacing: 5px;
+    word-spacing: 20px;
+ }
+ .grosor-letra {
+    font-weight: bolder;
+ }
+ .posicion-caja-Padre {
+    height: 250px;
+    width: 250px;
+    border: 2px solid rgb(58, 43, 226);
+    margin:  20px;}
+ .posicion-caja-1 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blueviolet;
+    margin:  20px;
+ }
+ .posicion-caja-2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgba(58, 7, 105, 0.711);
+    margin:  20px;
+ }
+ .posicion-caja-3 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(16, 2, 29);
+    margin:  20px;
+
+}
+.posicion-caja-4 {
+    height: 100px;
+    width: 100px;
+    border: 6px solid rgb(124, 15, 227);
+    margin:  20px;}
+.posicion-caja-padre{position: relative; border: 2px blue solid;}
+ .posicion-caja-1{position: relative; left: 5px;top: 5px;}
+ .posicion-caja-2{position: relative; left: 50px; bottom: 75px}
+ .posicion-caja-3{position: relative; left: 95px; bottom: 150px;}
+ /* .posicion-caja-4{position: sticky; left: 95px;top: 500px;} */
+ .perro-img  {height: 100px;
+ }
+   .cuadricula {
+    outline: 1px solid rebeccapurple;display: grid; grid-template-columns: 1fr 1fr 1fr
+   }
+   .uno {
+    grid-column: 1/2;
+    grid-row: 1/5;
+    height: 100px;
+    object-fit: cover;
+    justify-self: center;
+   }
